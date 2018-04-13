@@ -1,0 +1,6 @@
+/.vscode/
+/.settings/
+/node/
+/node_modules/
+tslint.json
+/target/
