@@ -17,4 +17,4 @@ ng test
 
 ## Caveats
 
-It is always better to do validation on the backend. However, I have made validation in an angular way instead. In a commercial application, I would do both. Validation does not happen until the form is submitted. Afterward, the validation error messages are checked when the user types in the password field. I spent 5 hours on it. I do not know if the deployable jar will work, because the angular app is located in the target dir also, and not the resources package where it would have been included in the jar from.
+It is always better to do validation on the backend. However, I have made validation in an angular way instead. Validation does not happen until the form is submitted. Afterward, the validation error messages are shown and rechecked when the user types in the password field.
